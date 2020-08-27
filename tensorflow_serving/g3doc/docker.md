@@ -5,7 +5,7 @@ One of the easiest ways to get started using TensorFlow Serving is with
 
 <pre class="prettyprint lang-bsh">
 # Download the TensorFlow Serving Docker image and repo
-<code class="devsite-terminal">docker pull tensorflow/serving</code><br/>
+<code class="devsite-terminal">docker pull tensorflow/serving.git</code><br/>
 <code class="devsite-terminal">git clone https://github.com/tensorflow/serving</code>
 # Location of demo models
 <code class="devsite-terminal">TESTDATA="$(pwd)/serving/tensorflow_serving/servables/tensorflow/testdata"</code>
